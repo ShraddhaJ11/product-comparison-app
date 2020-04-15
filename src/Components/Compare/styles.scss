@@ -1,0 +1,75 @@
+.compare {
+  table {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    border-spacing: 0px;
+    font-size: 11px;
+    table-layout: fixed;
+    margin: auto;
+
+    tr > td {
+      padding: 10px;
+      padding-right: 10px;
+      border-right: 1px solid #eee;
+    }
+    tr > th {
+      padding: 10px;
+      padding-right: 10px;
+      border-right: 1px solid #eee;
+      .header {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        .text {
+          font-size: 20px;
+          font-weight: 700;
+          padding-top: 10px;
+        }
+        .count {
+          font-size: 13px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    th[scope="row"] {
+      font-size: 12px;
+      color: #393c45;
+      font-weight: normal;
+      // border: 1px solid #eee;
+      text-align: left;
+      padding: 10px;
+      padding-right: 30px;
+    }
+
+    tr {
+      &.condition {
+        color: #fff;
+        font-size: 20px;
+      }
+
+      &.colors span {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        margin-right: 5px;
+        border-radius: 100%;
+      }
+    }
+
+    thead {
+      th {
+        font-size: 16px;
+        color: #393c45;
+        font-weight: normal;
+        // background-color: #f9f9f9;
+      }
+    }
+  }
+
+  .thead-default th {
+    text-align: left;
+    border: none;
+  }
+}

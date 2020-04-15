@@ -1,0 +1,43 @@
+.new_product {
+  position: relative;
+  height: 200px;
+  width: 200px;
+
+  img {
+    width: 70%;
+    height: 70%;
+    padding: 15%;
+  }
+
+  .container {
+    background: #8080801f;
+    width: 70%;
+    height: 40%;
+    padding: 15%;
+  }
+
+  .new_product_name {
+    font-size: 12px;
+    color: #393c45;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 0px;
+  }
+
+  .new_product_selection {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    font-size: 11px;
+    padding-left: 0px;
+    color: #9c9b9bfa;
+    width: 100%;
+
+    option {
+      width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+}
